@@ -5,7 +5,7 @@
   "keywords": [
     "pi-package"
   ],
-  "license": "Apache-2.0",
+  "license": "MIT",
   "pi": {
     "extensions": [
       "./extensions"

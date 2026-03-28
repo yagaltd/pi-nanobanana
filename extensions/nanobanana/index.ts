@@ -585,12 +585,6 @@ export default function (pi: ExtensionAPI) {
   // NOTIFY ON LOAD
   // ============================================
   pi.on("session_start", async (_event, ctx) => {
-    const outputDir = join(ctx.cwd, "nanobanana-output");
-    ctx.ui.notify(
-      `Nano Banana v1.0.0 loaded\n` +
-      `Model: ${model}\n` +
-      `Output: ${outputDir}`,
-      "success"
-    );
+    // Extension loaded silently
   });
 }
