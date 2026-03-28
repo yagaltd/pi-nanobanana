@@ -1,0 +1,10 @@
+# Generated images (should be in ~/.pi/generated-images/)
+# generated-images/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
