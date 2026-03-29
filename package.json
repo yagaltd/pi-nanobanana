@@ -8,7 +8,7 @@
   "license": "MIT",
   "pi": {
     "extensions": [
-      "./extensions"
+      "./extensions/nanobanana"
     ],
     "skills": [
       "./skills"
