@@ -1,3 +1,8 @@
+---
+name: nanobanana
+description: Gemini AI image generation for pi-coding-agent. Generate images, icons, patterns, diagrams, and stories using Google Gemini models. Use when asked to "generate an image", "create a diagram", "make an icon", "generate [something]", "edit this photo", or "restore this image".
+---
+
 # Nano Banana - pi Extension
 
 This skill teaches pi about the Nano Banana image generation extension.
