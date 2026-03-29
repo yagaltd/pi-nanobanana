@@ -14,38 +14,40 @@ pi install https://github.com/yagaltd/pi-nanobanana
 
 ## Use It
 
-Just describe what you want:
+Just describe what you want and pi will use the right tool:
 
 ```
 Generate a sunset over mountains
-Create 4 logo variations
-Make a flowchart
-Design an app icon
+Create a logo for my app
+Design a seamless pattern
+Make a flowchart of our system
+Edit this photo to add vintage style
+Restore this old photo
 ```
 
-## Commands
+## Tools
 
-| Command | What it does |
-|---------|--------------|
-| `/generate` | Create images with styles |
-| `/icon` | App icons, favicons |
-| `/pattern` | Seamless patterns |
-| `/diagram` | Flowcharts, architecture |
-| `/story` | Multi-panel sequences |
-| `/edit` | Edit existing images |
-| `/restore` | Enhance/restore images |
-
-## Options
-
-```
-/generate A logo --count 4 --styles modern,minimal
-/icon Rocket --type app-icon --sizes 32,64,128
-/diagram Architecture --complexity detailed
-```
+| Tool | Use When |
+|------|----------|
+| `generate_image` | Creating new images from text |
+| `edit_image` | Modifying an existing image |
+| `restore_image` | Enhancing/fixing a damaged image |
+| `generate_icon` | App icons, favicons |
+| `generate_pattern` | Seamless patterns |
+| `generate_diagram` | Flowcharts, architecture diagrams |
+| `generate_story` | Multi-panel sequences |
 
 ## Output
 
-Images save to `.pi/generated-images/` in your current project.
+Images are saved to `./nanobanana-output/` in your current working directory.
+
+## Quick Reference
+
+```
+generate_image prompt="A sunset" styles=photorealistic aspectRatio=16:9
+generate_icon prompt="Rocket" type=app-icon sizes=256,512
+generate_diagram prompt="System architecture" type=flowchart complexity=detailed
+```
 
 ## License
 
